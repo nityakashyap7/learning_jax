@@ -1,0 +1,10 @@
+[project]
+name = "learning-jax"
+version = "0.1.0"
+description = "learning jax using some tutorials, also rewriting the andrej karpathy transformers code in jax + flax linen"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "ipykernel>=6.31.0",
+    "jax[cuda12]>=0.4.30",
+]
