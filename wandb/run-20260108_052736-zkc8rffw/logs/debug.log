@@ -1,0 +1,5 @@
+2026-01-08 05:27:36,519 INFO    MainThread:3097069 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /home/nityakas/learning_jax/wandb/run-20260108_052736-zkc8rffw/logs/debug.log
+2026-01-08 05:27:36,519 INFO    MainThread:3097069 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /home/nityakas/learning_jax/wandb/run-20260108_052736-zkc8rffw/logs/debug-internal.log
+2026-01-08 05:27:36,519 INFO    MainThread:3097069 [wandb_init.py:init():841] calling init triggers
+2026-01-08 05:27:36,520 INFO    MainThread:3097069 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}

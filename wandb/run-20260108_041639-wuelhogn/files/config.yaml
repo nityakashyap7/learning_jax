@@ -1,0 +1,93 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            ousezf5jcw112kf3sygdl3st2vj2zqyw:
+                codePath: /home/nityakas/learning_jax/learning_flax.ipynb
+                codePathLocal: learning_flax.ipynb
+                cpu_count: 128
+                cpu_count_logical: 128
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "458680557568"
+                        used: "392204484608"
+                email: nityakas@usc.edu
+                executable: /home/nityakas/learning_jax/.venv/bin/python
+                git:
+                    commit: dbbcb7aa65a9964e0d2fff020a0794832f040dbe
+                    remote: https://github.com/nityakashyap7/learning_jax.git
+                gpu: NVIDIA RTX A6000
+                gpu_count: 8
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-a55b5e61-1240-9e0b-1ff6-2174bdd22dfb
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-de6d40fb-7d0c-c518-8c63-7211de23f496
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-d7ed4034-ecf1-2344-4a57-48405ac2b804
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-8a71bc8e-a4a1-1a86-c00f-a81b6aa9352c
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-02c77bcd-5a0f-0639-0565-89b9dda37bc3
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-b9c3d0d3-645b-cef8-7e41-5ecdded9ea2d
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-5c62cda2-99e9-2b0d-48c3-c82b8cb1446f
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-aae5bc83-ad0a-4dba-7e83-93230c09d834
+                host: snoopy1
+                memory:
+                    total: "1082021699584"
+                os: Linux-5.15.0-83-generic-x86_64-with-glibc2.35
+                program: /home/nityakas/learning_jax/learning_flax.ipynb
+                python: CPython 3.12.12
+                root: /home/nityakas/learning_jax
+                startedAt: "2026-01-08T04:16:39.400078Z"
+                writerId: ousezf5jcw112kf3sygdl3st2vj2zqyw
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 1
+                - 12
+                - 41
+                - 45
+            "2":
+                - 1
+                - 12
+                - 41
+                - 45
+            "3":
+                - 2
+                - 13
+            "4": 3.12.12
+            "5": 0.23.1
+            "8":
+                - 1
+            "12": 0.23.1
+            "13": linux-x86_64

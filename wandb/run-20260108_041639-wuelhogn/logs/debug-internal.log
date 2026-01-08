@@ -1,0 +1,12 @@
+{"time":"2026-01-08T04:16:39.624600125Z","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-08T04:16:39.964347512Z","level":"INFO","msg":"stream: created new stream","id":"wuelhogn"}
+{"time":"2026-01-08T04:16:39.964485132Z","level":"INFO","msg":"handler: started","stream_id":"wuelhogn"}
+{"time":"2026-01-08T04:16:39.964606623Z","level":"INFO","msg":"stream: started","id":"wuelhogn"}
+{"time":"2026-01-08T04:16:39.964672613Z","level":"INFO","msg":"sender: started","stream_id":"wuelhogn"}
+{"time":"2026-01-08T04:16:39.964666443Z","level":"INFO","msg":"writer: started","stream_id":"wuelhogn"}
+{"time":"2026-01-08T04:36:26.574597976Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-08T04:36:26.675888572Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-01-08T04:36:26.684333763Z","level":"INFO","msg":"stream: closing","id":"wuelhogn"}
+{"time":"2026-01-08T04:36:26.684357413Z","level":"INFO","msg":"handler: closed","stream_id":"wuelhogn"}
+{"time":"2026-01-08T04:36:26.684427804Z","level":"INFO","msg":"sender: closed","stream_id":"wuelhogn"}
+{"time":"2026-01-08T04:36:26.684440844Z","level":"INFO","msg":"stream: closed","id":"wuelhogn"}

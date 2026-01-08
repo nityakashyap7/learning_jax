@@ -1,0 +1,745 @@
+2026-01-08 05:15:54,085 INFO    MainThread:3097069 [wandb_setup.py:_flush():80] Current SDK version is 0.23.1
+2026-01-08 05:15:54,085 INFO    MainThread:3097069 [wandb_setup.py:_flush():80] Configure stats pid to 3097069
+2026-01-08 05:15:54,085 INFO    MainThread:3097069 [wandb_setup.py:_flush():80] Loading settings from /home/nityakas/.config/wandb/settings
+2026-01-08 05:15:54,085 INFO    MainThread:3097069 [wandb_setup.py:_flush():80] Loading settings from /home/nityakas/learning_jax/wandb/settings
+2026-01-08 05:15:54,085 INFO    MainThread:3097069 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2026-01-08 05:15:54,085 INFO    MainThread:3097069 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /home/nityakas/learning_jax/wandb/run-20260108_051554-8m6lwizo/logs/debug.log
+2026-01-08 05:15:54,085 INFO    MainThread:3097069 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /home/nityakas/learning_jax/wandb/run-20260108_051554-8m6lwizo/logs/debug-internal.log
+2026-01-08 05:15:54,086 INFO    MainThread:3097069 [wandb_init.py:monkeypatch_ipython():633] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7faa25b2bb60>
+2026-01-08 05:15:54,086 INFO    MainThread:3097069 [wandb_init.py:init():841] calling init triggers
+2026-01-08 05:15:54,086 INFO    MainThread:3097069 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2026-01-08 05:15:54,086 INFO    MainThread:3097069 [wandb_init.py:init():889] starting backend
+2026-01-08 05:15:54,301 INFO    MainThread:3097069 [wandb_init.py:init():892] sending inform_init request
+2026-01-08 05:15:54,305 INFO    MainThread:3097069 [wandb_init.py:init():900] backend started and connected
+2026-01-08 05:15:54,306 INFO    MainThread:3097069 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2026-01-08 05:15:54,307 INFO    MainThread:3097069 [wandb_init.py:init():970] updated telemetry
+2026-01-08 05:15:54,361 INFO    MainThread:3097069 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2026-01-08 05:15:54,989 INFO    MainThread:3097069 [wandb_init.py:init():1041] starting run threads in backend
+2026-01-08 05:15:55,069 INFO    MainThread:3097069 [wandb_run.py:_console_start():2521] atexit reg
+2026-01-08 05:15:55,069 INFO    MainThread:3097069 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2026-01-08 05:15:55,069 INFO    MainThread:3097069 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2026-01-08 05:15:55,069 INFO    MainThread:3097069 [wandb_run.py:_redirect():2461] Redirects installed.
+2026-01-08 05:15:55,072 INFO    MainThread:3097069 [wandb_init.py:init():1081] run started, returning control to user process
+2026-01-08 05:15:55,074 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:15:55,079 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:15:55,080 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:15:55,080 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:15:55,087 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:15:55,087 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:15:55,088 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:15:55,093 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:15:55,093 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:15:57,086 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:15:57,094 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:15:57,094 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:17:20,357 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:17:22,775 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:17:22,775 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:17:23,344 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:21:19,406 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:21:19,406 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:21:19,411 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:21:26,234 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:21:26,234 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:21:26,239 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:21:26,466 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:21:26,466 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:21:26,471 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:21:28,757 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:21:28,757 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:21:28,762 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:21:29,405 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:21:29,405 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:21:29,410 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:21:30,050 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:21:30,050 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:21:30,055 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:21:35,315 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:21:35,316 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:21:35,322 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:21:37,509 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:21:37,509 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:21:37,515 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:21:38,766 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:21:38,766 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:21:38,771 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:21:41,403 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:21:41,403 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:21:41,409 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:21:42,877 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:21:42,878 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:21:42,883 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:21:44,310 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:21:44,310 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:21:44,314 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:21:46,436 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:21:46,437 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:21:46,441 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:21:48,425 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:21:48,425 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:21:48,430 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:22:11,157 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:22:11,157 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:22:11,162 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:22:12,056 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:22:12,056 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:22:12,061 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:22:15,425 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:22:15,425 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:22:15,430 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:22:17,024 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:22:17,024 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:22:17,029 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:22:24,596 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:22:24,596 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:22:24,600 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:22:26,447 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:22:26,447 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:22:26,450 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:22:30,608 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:22:30,608 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:22:30,614 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:22:32,416 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:22:32,417 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:22:32,422 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:22:41,920 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:22:41,921 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:22:41,926 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:22:45,458 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:22:45,458 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:22:45,464 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:23:35,541 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:23:35,541 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:23:35,547 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:23:40,692 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:23:40,692 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:23:40,697 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:24:16,005 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:24:16,005 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:24:16,010 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:24:16,678 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:24:16,678 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:24:16,683 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:24:19,056 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:24:19,056 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:24:19,061 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:24:19,468 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:24:19,468 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:24:19,472 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:24:22,895 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:24:22,896 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:24:22,899 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:24:23,642 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:24:23,642 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:24:23,647 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:24:51,340 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:24:51,340 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:24:51,346 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:25:03,215 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:25:03,215 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:25:03,225 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:25:06,280 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:25:06,281 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:25:06,286 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:25:17,008 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:25:17,009 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:25:17,014 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:25:17,693 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:25:17,693 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:25:17,701 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:25:34,728 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:25:34,728 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:25:34,734 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:25:37,720 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:25:37,721 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:25:37,726 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:25:42,455 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:25:42,455 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:25:42,462 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:25:43,062 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:25:43,062 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:25:43,070 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:25:45,132 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:25:45,132 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:25:45,138 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:25:54,731 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:25:54,731 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:25:54,737 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:25:56,947 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:25:56,947 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:25:56,951 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:26:02,815 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:26:02,816 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:26:02,821 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:26:05,695 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:26:05,695 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:26:05,701 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:26:14,221 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:26:14,222 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:26:14,226 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:26:15,819 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:26:15,819 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:26:15,823 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:26:34,201 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:26:34,201 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:26:34,211 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:26:41,824 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:26:41,824 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:26:41,833 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:26:48,776 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:26:48,776 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:26:48,790 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:26:52,564 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:26:52,564 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:26:52,584 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:27:02,619 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:27:02,619 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:27:30,820 INFO    wandb-AsyncioManager-main:3097069 [service_client.py:_forward_responses():80] Reached EOF.
+2026-01-08 05:27:30,820 INFO    wandb-AsyncioManager-main:3097069 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.
+2026-01-08 05:27:31,142 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:27:33,130 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:27:33,130 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:27:33,437 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:27:33,533 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:27:33,533 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:27:33,659 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:27:33,836 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:27:33,836 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:27:34,044 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:27:34,296 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:27:34,296 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:27:34,649 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:27:34,813 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:27:34,813 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:27:34,966 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:27:35,130 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:27:35,130 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:27:35,283 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:27:35,440 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:27:35,440 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:27:35,743 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:27:35,903 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:27:35,903 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:27:36,055 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:27:36,217 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:27:36,218 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:27:36,521 INFO    MainThread:3097069 [wandb_run.py:_finish():2287] finishing run nityakas-usc/learning-flax-by-testing-CNN-on-MNIST/8m6lwizo
+2026-01-08 05:27:36,523 ERROR   MainThread:3097069 [wandb_init.py:init():1592] [no run ID] error in wandb.init()
+Traceback (most recent call last):
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1577, in init
+    run = wi.init(run_settings, run_config, run_printer)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 862, in init
+    self._wl.finish_all_active_runs()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_setup.py", line 165, in finish_all_active_runs
+    run.finish()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 445, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2275, in finish
+    return self._finish(exit_code)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2288, in _finish
+    with telemetry.context(run=self) as tel:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 752, in _telemetry_callback
+    self._telemetry_flush()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 765, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 103, in _publish_telemetry
+    self._publish(rec)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/IPython/core/events.py", line 96, in trigger
+    func(*args, **kwargs)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/IPython/core/events.py", line 96, in trigger
+    func(*args, **kwargs)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 604, in _post_run_cell_hook
+    self.backend.interface.publish_resume()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 811, in publish_resume
+    self._publish_resume(resume)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 334, in _publish_resume
+    self._publish(rec)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/IPython/core/events.py", line 96, in trigger
+    func(*args, **kwargs)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/IPython/core/events.py", line 96, in trigger
+    func(*args, **kwargs)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 604, in _post_run_cell_hook
+    self.backend.interface.publish_resume()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 811, in publish_resume
+    self._publish_resume(resume)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 334, in _publish_resume
+    self._publish(rec)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/IPython/core/events.py", line 96, in trigger
+    func(*args, **kwargs)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/IPython/core/events.py", line 96, in trigger
+    func(*args, **kwargs)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 604, in _post_run_cell_hook
+    self.backend.interface.publish_resume()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 811, in publish_resume
+    self._publish_resume(resume)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 334, in _publish_resume
+    self._publish(rec)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/IPython/core/events.py", line 96, in trigger
+    func(*args, **kwargs)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/IPython/core/events.py", line 96, in trigger
+    func(*args, **kwargs)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 604, in _post_run_cell_hook
+    self.backend.interface.publish_resume()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 811, in publish_resume
+    self._publish_resume(resume)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 334, in _publish_resume
+    self._publish(rec)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/IPython/core/events.py", line 96, in trigger
+    func(*args, **kwargs)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/IPython/core/events.py", line 96, in trigger
+    func(*args, **kwargs)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 604, in _post_run_cell_hook
+    self.backend.interface.publish_resume()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 811, in publish_resume
+    self._publish_resume(resume)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 334, in _publish_resume
+    self._publish(rec)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/IPython/core/events.py", line 96, in trigger
+    func(*args, **kwargs)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/IPython/core/events.py", line 96, in trigger
+    func(*args, **kwargs)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 604, in _post_run_cell_hook
+    self.backend.interface.publish_resume()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 811, in publish_resume
+    self._publish_resume(resume)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 334, in _publish_resume
+    self._publish(rec)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/IPython/core/events.py", line 96, in trigger
+    func(*args, **kwargs)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/IPython/core/events.py", line 96, in trigger
+    func(*args, **kwargs)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 604, in _post_run_cell_hook
+    self.backend.interface.publish_resume()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 811, in publish_resume
+    self._publish_resume(resume)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 334, in _publish_resume
+    self._publish(rec)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/IPython/core/events.py", line 96, in trigger
+    func(*args, **kwargs)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/IPython/core/events.py", line 96, in trigger
+    func(*args, **kwargs)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 604, in _post_run_cell_hook
+    self.backend.interface.publish_resume()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 811, in publish_resume
+    self._publish_resume(resume)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 334, in _publish_resume
+    self._publish(rec)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/IPython/core/events.py", line 96, in trigger
+    func(*args, **kwargs)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 593, in _pre_run_cell_hook
+    self.backend.interface.publish_pause()
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 803, in publish_pause
+    self._publish_pause(pause)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 330, in _publish_pause
+    self._publish(rec)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 46, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/home/nityakas/learning_jax/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/streams.py", line 380, in drain
+    raise exc
+  File "/home/nityakas/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/selector_events.py", line 1075, in write
+    n = self._sock.send(data)
+        ^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+2026-01-08 05:27:37,155 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend
+2026-01-08 05:28:02,336 INFO    MainThread:3097069 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2026-01-08 05:28:02,337 INFO    MainThread:3097069 [wandb_init.py:_pre_run_cell_hook():592] [no run ID] pausing backend
+2026-01-08 05:28:02,656 INFO    MainThread:3097069 [wandb_init.py:_post_run_cell_hook():603] [no run ID] resuming backend

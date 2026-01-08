@@ -3,8 +3,18 @@ name = "learning-jax"
 version = "0.1.0"
 description = "learning jax using some tutorials, also rewriting the andrej karpathy transformers code in jax + flax linen"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 dependencies = [
+    "clu>=0.0.12",
+    "einops>=0.8.1",
+    "flax>=0.10.4",
     "ipykernel>=6.31.0",
-    "jax[cuda12]>=0.4.30",
+    "jax[cuda12]==0.4.34",
+    "torchvision>=0.24.1",
+    "wandb>=0.23.1",
 ]
+
+[[tool.uv.index]]
+name = "jax-cuda"
+url = "https://storage.googleapis.com/jax-releases/jax_cuda_releases.html"
+explicit = true
